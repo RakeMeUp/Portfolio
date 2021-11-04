@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .md-btn {
+    @apply px-12 bg-white h-24 rounded-full shadow-md;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
