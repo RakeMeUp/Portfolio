@@ -11,3 +11,15 @@
 html {
   scroll-behavior: smooth;
 }
+
+.shadow-tl-hack {
+  box-shadow: 10px 0 0 0 black;
+}
+.shadow-br-hack {
+  box-shadow: 0 -10px 0 0 black;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
