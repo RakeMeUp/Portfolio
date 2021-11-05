@@ -52,7 +52,7 @@ export default function Navbar() {
   return (
     <div>
       <Menubox handleClick={handleClick} />
-      <div id="drawer" className=" fixed -right-52 flex flex-col items-end">
+      <div id="drawer" className="z-10 fixed -right-52 flex flex-col items-end">
         <div
           id="list-container"
           className=" rounded-bl-xl bg-black w-52 text-white items-center justify-center flex relative"
