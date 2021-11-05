@@ -1,5 +1,4 @@
 import React from "react";
-import Badge from "./smallComps/badge";
 import html5 from "../img/html5.png";
 import jsImg from "../img/js.png";
 import css3 from "../img/css3.png";
