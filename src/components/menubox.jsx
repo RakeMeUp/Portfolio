@@ -12,7 +12,7 @@ class Menubox extends Component {
         <div className="flex flex-col items-end">
           <div
             id="navbar-box"
-            className=" w-10 h-10 bg-black text-white rounded-bl-lg flex justify-center items-center "
+            className=" w-16 h-16 bg-black text-white rounded-bl-2xl flex justify-center items-center "
           >
             <img
               /* I put the onclick on the img, so it wont trigger twice when
@@ -21,7 +21,7 @@ class Menubox extends Component {
               src={menu}
               alt="menu icon"
               id="hamburger"
-              className=" navbar w-7"
+              className=" navbar w-10"
             />
           </div>
 
