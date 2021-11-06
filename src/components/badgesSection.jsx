@@ -51,8 +51,8 @@ export default function BadgesSection() {
       <div className="mx-5 mt-5">
         <div className="pt-5 bg-gray-300 rounded-3xl shadow-inner text-center pb-3">
           <ul className=" badge-list flex justify-around flex-wrap first:px-5">
-            <BadgeC size={"sm"} img={html5} text={"HTML5"} />
             <BadgeC size={"sm"} img={jsImg} text={"JavaScript"} />
+            <BadgeC size={"sm"} img={html5} text={"HTML5"} />
             <BadgeC size={"sm"} img={css3} text={"CSS3"} />
           </ul>
           <span className=" text-inset font-black text-sm ">

@@ -4,7 +4,7 @@ import menu from "../img/hamburger.svg";
 class Menubox extends Component {
   render() {
     return (
-      <div id="menubox" className=" fixed right-0 flex z-50">
+      <div id="menubox" className=" fixed right-0 flex z-10">
         {/* to make the inverse rounded corner, you have to make an invisible
         div, round down the opposite corner, drop a blurless shadow thats the 
         color of the target div. */}

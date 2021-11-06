@@ -3,6 +3,7 @@ import Menubox from "./menubox.jsx";
 import $ from "jquery";
 import ListEl from "./smallComps/ListEl.jsx";
 import racc from "../img/racc.png";
+import Modal from "./modal.jsx";
 
 export default function Navbar() {
   let isOpen = false;
@@ -36,6 +37,11 @@ export default function Navbar() {
     }
   };
 
+  let showModal = () => {
+    $("#modal").removeClass("hidden");
+    $("#modal").addClass("flex");
+  };
+
   //global click listener, if user clicks out of navbar, it closes
   $(document).on("click", function (event) {
     if (!isOpen) {
@@ -51,6 +57,7 @@ export default function Navbar() {
 
   return (
     <div>
+      <Modal />
       <Menubox handleClick={handleClick} />
       <div id="drawer" className="z-10 fixed -right-52 flex flex-col items-end">
         <div
@@ -58,6 +65,7 @@ export default function Navbar() {
           className=" rounded-bl-xl bg-black w-52 text-white items-center justify-center flex relative"
         >
           <img
+            onClick={showModal}
             src={racc}
             alt="lil raccoon"
             className="absolute top-2 right-2 w-10"
