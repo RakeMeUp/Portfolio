@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Hero from "./components/hero.jsx";
-import Badges from "./components/badgesSection.jsx";
-import Projects from "./components/projects.jsx";
-import Contacts from "./components/contacts.jsx";
-import Navbar from "./components/navbar.jsx";
+import Hero from "./components/sections/hero.jsx";
+import Badges from "./components/sections/badges.jsx";
+import Projects from "./components/sections/projects.jsx";
+import Contacts from "./components/sections/contacts.jsx";
+import Navbar from "./components/sections/navbar.jsx";
 import "./index.css";
 
 ReactDOM.render(

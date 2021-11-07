@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import menu from "../img/hamburger.svg";
+import menuIcon from "../../img/hamburger.svg";
 
 class Menubox extends Component {
   render() {
@@ -18,7 +18,7 @@ class Menubox extends Component {
               /* I put the onclick on the img, so it wont trigger twice when
             clicking on edge of elements */
               onClick={this.props.handleClick}
-              src={menu}
+              src={menuIcon}
               alt="menu icon"
               id="hamburger"
               className=" navbar w-10"

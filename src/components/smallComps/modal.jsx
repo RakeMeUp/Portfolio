@@ -1,6 +1,6 @@
 import $ from "jquery";
 import React, { Component } from "react";
-import raccoon from "../img/racc.jpg";
+import raccoon from "../../img/racc.jpg";
 
 class Modal extends Component {
   render() {

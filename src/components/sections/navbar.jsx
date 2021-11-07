@@ -1,9 +1,12 @@
+//Dependencies
 import React from "react";
-import Menubox from "./menubox.jsx";
 import $ from "jquery";
-import ListEl from "./smallComps/ListEl.jsx";
-import racc from "../img/racc.png";
-import Modal from "./modal.jsx";
+//Small Components
+import Menubox from "../smallComps/menubox.jsx";
+import Modal from "../smallComps/modal.jsx";
+import ListEl from "../smallComps/ListEl.jsx";
+//Items
+import racc from "../../img/racc.png";
 
 export default function Navbar() {
   let isOpen = false;
