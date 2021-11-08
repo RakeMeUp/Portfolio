@@ -3,6 +3,7 @@ import React, { Component } from "react";
 class Badge extends Component {
   render() {
     if (this.props.size === "sm") {
+      // render smaller badge
       return (
         <li className="pb-5 flex flex-col items-center">
           <div className="bg-white shadow-md rounded-full flex justify-center items-center w-20 h-20">
@@ -14,6 +15,7 @@ class Badge extends Component {
         </li>
       );
     } else if (this.props.size === "lg") {
+      // render larger badge
       return (
         <li className="pb-5 flex flex-col items-center">
           <div className="bg-white shadow-md rounded-full flex justify-center items-center w-28 h-28">
