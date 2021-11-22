@@ -13,7 +13,7 @@ class Hero extends Component {
         <div className="flex flex-col items-center">
           <div className=" text-5xl text-templateGray pt-12 px-8 max-w-md">
             <div className="font-pacifico float-left pb-5">Hello There</div>
-            <div className="font-pacifico float-right">I'm Name</div>
+            <div className="font-pacifico float-right">I'm Bence</div>
           </div>
           <div className="mt-12 text-l text-templatePrimary">
             Upcoming Web Developer
