@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         ubuntu: ['"Ubuntu"', "sans-serif"],
+        pacifico: ['"Pacifico"', "cursive"],
       },
     },
     colors: {
@@ -26,7 +27,11 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      ringWidth: ["hover", "active"],
+      backgroundColor: ["active"],
+      backgroundOpacity: ["active"],
+    },
   },
   plugins: [],
 };

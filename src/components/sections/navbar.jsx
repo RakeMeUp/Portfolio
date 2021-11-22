@@ -54,7 +54,7 @@ class Navbar extends Component {
 
   render() {
     return (
-      <div>
+      <div id="navbar">
         {this.state.menuOpen && (
           <div
             onClick={this.handleClick}

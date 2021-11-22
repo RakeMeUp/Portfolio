@@ -24,7 +24,7 @@ export default function BadgesSection() {
             <Badge size={"sm"} img={html5} text={"HTML5"} />
             <Badge size={"sm"} img={css3} text={"CSS3"} />
           </ul>
-          <span className=" text-inset font-black text-sm ">
+          <span className=" text-inset-gray font-black text-sm ">
             The Harry Potter Trio of the Web Development
           </span>
         </div>

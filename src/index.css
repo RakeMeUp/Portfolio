@@ -2,13 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 @layer components {
   .md-btn {
     @apply px-12 bg-white h-24 rounded-full shadow-md;
   }
 
-  .text-inset {
+  .text-inset-gray {
     background-color: #565656;
     color: transparent;
     text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
