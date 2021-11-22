@@ -1,12 +1,42 @@
 import React, { Component } from "react";
+import Button from "../smallComps/button";
+import logo from "../../img/HeroLogo.png";
 
 class Hero extends Component {
   render() {
     return (
-      <article id="hero" className=" w-full h-screen bg-templateDark relative">
-        Hero
+      <article
+        id="hero"
+        className=" w-full h-screen flex flex-col items-center bg-templateDark relative"
+      >
+        {/* Headline */}
+        <div className="flex flex-col items-center">
+          <div className=" text-5xl text-templateGray pt-12 px-8 max-w-md">
+            <div className="font-pacifico float-left pb-5">Hello There</div>
+            <div className="font-pacifico float-right">I'm Name</div>
+          </div>
+          <div className="mt-12 text-l text-templatePrimary">
+            Upcoming Web Developer
+          </div>
+        </div>
+        {/* logo */}
+        <img
+          className="absolute bottom-40 max-h-80"
+          src={logo}
+          alt="LOGO"
+        ></img>
+        <div
+          id="button-container"
+          className=" absolute bottom-20 flex w-full px-8 justify-between"
+        >
+          <Button link={"#projects"} text={"Projects"} />
+          <Button link={"#badges"} text={"Tech Stack"} />
+          <Button link={"#contacts"} text={"Contacts"} />
+        </div>
+        {/* Bottom Curve */}
         <svg
-          className="absolute bottom-0"
+          preserveAspectRatio="none"
+          className="absolute bottom-0 max-h-10 w-full"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 320"
         >
