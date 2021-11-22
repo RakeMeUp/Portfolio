@@ -1,10 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 @layer components {
   .md-btn {
     @apply px-12 bg-white h-24 rounded-full shadow-md;
+  }
+
+  .text-inset {
+    background-color: #565656;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
   }
 }
 
@@ -22,4 +32,11 @@ html {
 * {
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* adding padding to the first child in badges so it takes a pyramid form */
+.badge-list li:first-child {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }

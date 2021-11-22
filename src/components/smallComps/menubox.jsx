@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import menu from "../img/hamburger.svg";
+import menuIcon from "../../img/hamburger.svg";
 
 class Menubox extends Component {
   render() {
     return (
-      <div id="menubox" className=" fixed right-0 flex z-50">
+      <div id="menubox" className=" fixed right-0 flex z-10">
         {/* to make the inverse rounded corner, you have to make an invisible
         div, round down the opposite corner, drop a blurless shadow thats the 
         color of the target div. */}
@@ -12,16 +12,16 @@ class Menubox extends Component {
         <div className="flex flex-col items-end">
           <div
             id="navbar-box"
-            className=" w-10 h-10 bg-black text-white rounded-bl-lg flex justify-center items-center "
+            className=" w-16 h-16 bg-black text-white rounded-bl-2xl flex justify-center items-center "
           >
             <img
               /* I put the onclick on the img, so it wont trigger twice when
             clicking on edge of elements */
               onClick={this.props.handleClick}
-              src={menu}
+              src={menuIcon}
               alt="menu icon"
               id="hamburger"
-              className=" navbar w-7"
+              className=" navbar w-10"
             />
           </div>
 
