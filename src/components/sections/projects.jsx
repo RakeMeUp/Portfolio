@@ -24,7 +24,11 @@ class Projects extends Component {
         {/* Content */}
         <h1 className="text-center text-3xl">GitHub Repo</h1>
         <div className="mt-10 flex flex-col text-center items-center font-bold text-l">
-          <a href="https://github.com/RakeMeUp" target="_blank">
+          <a
+            href="https://github.com/RakeMeUp"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={githubLogo} alt="Github Logo" width="200px" />
             Click Me!
           </a>
