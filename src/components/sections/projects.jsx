@@ -30,7 +30,7 @@ class Projects extends Component {
             rel="noreferrer"
           >
             <img src={githubLogo} alt="Github Logo" width="200px" />
-            Click Me!
+            My Personal Repo
           </a>
         </div>
       </article>
